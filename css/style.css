@@ -421,9 +421,9 @@ li img {
     position: relative;
 }
 
-.main-search-label:after {
-    display: block;
-	position: absolute;
+.main-search-href:focus {
+    text-decoration: underline;
+    text-decoration-color: #F3CD47;
 
     left: 0;
     width: 0;
