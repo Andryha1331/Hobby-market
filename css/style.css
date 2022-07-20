@@ -124,9 +124,11 @@ li img {
     padding: 0;
 }
 
+li a:hover {
+    color: #F3CD47;
+}
+
 .nav-links-button {
-    /* width: 200px;
-    height: 50px; */
     background: #F3CD47;
     border-radius: 2px;
 
@@ -254,7 +256,7 @@ li img {
     line-height: 30px;
     /* margin-right: 310px; */
 
-    font-family: 'Gill Sans Nova'
+    font-family: 'Gill Sans Nova';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -304,6 +306,10 @@ li img {
     display: flex;
     list-style-type: none;
     padding-left: 27px;
+}
+
+.nav-bottom-list:hover {
+    color: #F3CD47;
 }
 
 .main {
@@ -417,25 +423,19 @@ li img {
     color: #3D3D3D;
 
     margin: 0;
-
-    position: relative;
 }
 
 .main-search-href:focus {
     text-decoration: underline;
     text-decoration-color: #F3CD47;
 
-    left: 0;
-    width: 0;
-    height: 6px;
-    background-color: chocolate;
+    text-decoration-thickness: 6px;
+    text-decoration-skip: none;
 
-    content: "";
-	transition: width 0.3s ease-out;
 }
 
-.main-search-label:hover:after, .main-search-label:focus:after {
-    width: 100%;
+.main-search-label:hover {
+    color: #F3CD47;
 }
 
 .container-label {
