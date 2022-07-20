@@ -1,0 +1,378 @@
+@media screen and (max-width: 1450px) {
+
+    .nav-bottom-list {
+        display: none;
+    }
+
+    .nav-bottom__menu {
+        flex-basis: 100%;
+    }
+
+    .header {
+        position: relative;
+        height: 220px;
+
+        background-color: #193E6B;
+
+        z-index: 7;
+    }
+
+    .nav-main {
+        position: absolute;
+    }
+
+    .logo-img {
+        width: 220px;
+        height: 101px;
+
+        position: absolute;
+        top: 23px;
+        z-index: 3;
+
+        background-color: #193E6B;
+    }
+
+    .img-main-label {
+        top: 159px;
+        left: 20px;
+    }
+
+    .img-main-button {
+        top: 300px;
+        left: 20px;
+    }
+
+    .nav-top {
+        display: none;
+    }
+
+    .img-burger-menu {
+        display: block;
+    }
+
+    .nav-links-right {
+        justify-content: flex-end;
+    }
+
+    .nav-links-button {
+        margin-left: 0;
+    }
+
+    .block-search__input {
+        margin-left: 230px;
+        flex-basis: 300px;
+    }
+
+    .block-search__glass {
+        margin-left: 24px;
+    }
+
+    #search-categories {
+        margin-left: 20px;
+    }
+
+    .block-search-sum {
+        margin-left: 22px;
+    }
+
+    .main-search-items {
+        grid-template-columns: repeat(2, 354px);
+    }
+
+    .img-main-items {
+        margin: 60px 83px 61px 83px;
+    }
+
+    .slider-container {
+        margin-bottom: 80px;
+    }
+
+    .main-search {
+        padding-top: 80px;
+    }
+
+    .item-9, .item-10, .item-11, .item-12, .item-13, .item-14, .item-15, .item-16 {
+        display: none;
+    }
+
+    .main-search-container {
+        padding-bottom: 80px;
+    }
+
+    .main-search-items__button {
+        display: block;
+    }
+
+    .main-articles {
+        padding-top: 80px;
+    }
+   
+    .container-articles-arrow {
+        display: none;
+    }
+
+    .catalogue-articles-item-2 {
+        display: none;
+    }
+
+    .catalogue-articles {
+        justify-content: center;
+        display: block;
+    }
+
+    .catalogue-articles-img {
+        width: 728px;
+        display: block;
+        margin: 0px auto 15px auto;
+    }
+
+    .article-text, .article-label {
+        max-width: 728px;
+        margin: 0 auto;
+    }
+
+    .block-search__glass {
+        margin-left: 24px;
+    }
+
+    .img-main-screen {
+        display: none;
+    }
+
+    .img-main-tablet {
+        display: block;
+    }
+
+    .img-container-main {
+        max-width: 768px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .left-arrow, .right-arrow {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 918px) { 
+    .block-search__input {
+        flex-basis: 160px;
+        padding-right: 0;
+    }
+
+    .block-search__glass {
+        margin-left: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 840px) {
+    .header {
+        margin-bottom: 0px;
+    }
+    
+    
+    .footer-main {
+        flex-wrap: wrap;
+    }
+
+    .footer-catalogue {
+        order: 1;
+    }
+
+    .footer-help {
+        order: 2;
+    }
+
+    .footer-other {
+        order: 3;
+    }
+
+    .footer-logo-address {
+        max-width: 317px;
+
+        margin: 30px auto 0 auto;
+
+        text-align: center;
+        order: 4;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .footer-logo-smallscreen {
+        width: 200px;
+        height: 80px;
+        display: block;
+
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .footer-catalogue-label, .footer-help-label, .footer-other {
+        margin-top: 30px;
+    }
+
+    .footer-address-text {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width: 765px) {
+    #search-categories {
+        margin-left: 10px;
+    }
+
+    .nav-links-button {
+        display: none;
+    }
+
+    .nav-links-right-list__inst, .nav-links-right-list__mail {
+        display: none;
+    }
+
+    .block-search__input, .block-search__categories {
+        display: none;
+    }
+
+    .block-search-sum {
+        margin: 0 20px 0 22px;
+        line-height: 100px;
+    }
+
+    .block-search-glasssmall {
+        display: block;
+    }
+
+    .block-search {
+        justify-content: flex-end;
+    }
+
+    .img-main-tablet {
+        display: none;
+    }
+
+    .img-main-phone {
+        display: block;
+    }
+
+    .img-container-main {
+        max-width: 375px;
+    }
+
+    .img-main-label {
+        top: 62px;
+        left: 20px;
+
+        font-size: 56px;
+        line-height: 71px;
+    }
+
+    .img-main-button {
+        top: 234px;
+        left: 20px;
+    }
+
+    .main-search-items {
+        grid-template-columns: 335px;
+    }
+
+    .item-6, .item-7, .item-8 {
+        display: none;
+    }
+
+    .main-search-label {
+        font-size: 32px;
+        line-height: 40px;
+        
+    }
+
+    .main-articles {
+        padding-top: 60px;
+    }
+
+    .main-search-container {
+        padding-bottom: 60px;
+    }
+
+    .catalogue-articles-img {
+        width: 335px;
+    }
+
+    .article-text, .article-label {
+        max-width: 335px;
+        margin: 0 auto;
+    }
+
+    .img-main-items {
+        margin: 60px 73px 61px 74px;
+    }
+
+    .container-label {
+        justify-content: center;
+    }
+
+    .main-articles-label {
+        margin: 0 auto;
+    }
+
+    .footer-main {
+        flex-direction: column;
+    }
+
+    .footer-catalogue, .container-right-column, .footer-help {
+        margin: 0 auto;
+    }
+
+    .footer-other {
+        margin: 30px auto 0 auto; 
+    }
+
+    .container-catalog-item {
+        flex-direction: column;
+        gap: 10px;
+
+        text-align: center;
+    }
+
+    .footer-catalogue-label, .footer-help, .footer-other  {
+        text-align: center;
+    }
+
+    .footer {
+        padding-top: 30px;
+    }
+
+    
+    .article-slider-container {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .logo-img {
+        width: 178px;
+        height: 65px;
+    }
+
+    .block-search-sum {
+        line-height: 64px;
+    }
+
+    .header {
+        height: 184px;
+    }
+
+}
+
+
+
