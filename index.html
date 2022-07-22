@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobby-market</title>
-   
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
@@ -78,22 +79,25 @@
         </header>
 
         <main class="main">
-            <div class="img-container-main">
-                <img class="img-main-screen" src="images/drawing-water.jpg" alt="drawing-water">
-                <img class="img-main-tablet" src="images/drawing-water-tablet.jpg" alt="drawing-water-tablet">
-                <img class="img-main-phone" src="images/drawing-water-phone.jpg" alt="drawing-water-phone">
+            <div class="swiper-object">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-label-button">
+                                <p class="swiper-label">Всё для рисования на воде</p>
+                                <a href="#"><p class="swiper-button">Подробнее</p></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                    </div>
+                    
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>      
+                </div>
 
-                <div class="img-main-label">ВСЁ ДЛЯ РИСОВАНИЯ НА ВОДЕ</div>
-                <button class="img-main-button"><p class="img-main-button-label">Подробнее</p></button>
-                <img src="images/left-arrow.svg" alt="left-arrow" class="left-arrow">
-                <img src="images/right-arrow.svg" alt="right-arrow" class="right-arrow">
-            </div>
-
-            <div class="slider-container">
-                <input type="radio" name="slider" value="1" selected class="slider-container__input">
-                <input type="radio" name="slider" value="2" class="slider-container__input">
-                <input type="radio" name="slider" value="3" class="slider-container__input">
-                <input type="radio" name="slider" value="4" class="slider-container__input">
+                <div class="swiper-pagination"></div>
             </div>
 
             <div class="main-search">
@@ -224,55 +228,88 @@
             </div>
 
             <div class="main-articles">
-                <div class="container-articles-labels">
-                    <p class="main-articles-label">Полезные статьи</p>
-
-                    <div class="container-articles-arrow">
-                        <img class="article-left-arrow" src="images/article-left-arrow.svg" alt="article-left-arrow">
-                        <img class="article-right-arrow" src="images/article-right-arrow.svg" alt="article-right-arrow">
+                <p class="main-articles-label">Полезные статьи</p>
+            
+                <div class="swiper-object-articles">
+                    <div class="swiper-articles">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="catalogue-articles" >
+                                    <div class="catalogue-articles-item-1">
+                                        <a href="#">
+                                            <img src="images/article-1.jpg" alt="article-1" class="catalogue-articles-img">
+                                            <p class="article-label">Как использовать остатки алмазной мозаики?</p>
+                                            <p class="article-text">Принадлежите к числу рукодельниц, занимающихся алмазной вышивкой? 
+                                            Значит, вы уже столкнулись с проблемой использования оставшихся после завершения картин страз. 
+                                            Отправлять подобную красоту в мусорное ведро жалко, а копить – неудобно. 
+                                            Как оказалось, этим остаткам можно найти достойное применение. 
+                                            Какое? Об этом мы расскажем в своей статье!
+                                            </p>
+                                        </a>
+                
+                                    </div>
+                
+                                    <div class="catalogue-articles-item-2">
+                                        <a href="#">
+                                            <img src="images/article-2.jpg" alt="article-2" class="catalogue-articles-img">
+                                            <p class="article-label">Как использовать остатки алмазной мозаики?</p>
+                                            <p class="article-text">Принадлежите к числу рукодельниц, занимающихся алмазной вышивкой? 
+                                                Значит, вы уже столкнулись с проблемой использования оставшихся после завершения картин страз. 
+                                                Отправлять подобную красоту в мусорное ведро жалко, а копить – неудобно. 
+                                                Как оказалось, этим остаткам можно найти достойное применение. 
+                                                Какое? Об этом мы расскажем в своей статье!
+                                            </p>
+                                        </a>
+                                    </div>
+                
+                                </div>
+                
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="catalogue-articles" >
+                                    <div class="catalogue-articles-item-1">
+                                        <a href="#">
+                                            <img src="images/article-1.jpg" alt="article-1" class="catalogue-articles-img">
+                                            <p class="article-label">Как использовать остатки алмазной мозаики?</p>
+                                            <p class="article-text">Принадлежите к числу рукодельниц, занимающихся алмазной вышивкой? 
+                                            Значит, вы уже столкнулись с проблемой использования оставшихся после завершения картин страз. 
+                                            Отправлять подобную красоту в мусорное ведро жалко, а копить – неудобно. 
+                                            Как оказалось, этим остаткам можно найти достойное применение. 
+                                            Какое? Об этом мы расскажем в своей статье!
+                                            </p>
+                                        </a>
+                
+                                    </div>
+                
+                                    <div class="catalogue-articles-item-2">
+                                        <a href="#">
+                                            <img src="images/article-2.jpg" alt="article-2" class="catalogue-articles-img">
+                                            <p class="article-label">Как использовать остатки алмазной мозаики?</p>
+                                            <p class="article-text">Принадлежите к числу рукодельниц, занимающихся алмазной вышивкой? 
+                                                Значит, вы уже столкнулись с проблемой использования оставшихся после завершения картин страз. 
+                                                Отправлять подобную красоту в мусорное ведро жалко, а копить – неудобно. 
+                                                Как оказалось, этим остаткам можно найти достойное применение. 
+                                                Какое? Об этом мы расскажем в своей статье!
+                                            </p>
+                                        </a>
+                                    </div>
+                
+                                </div>
+                            </div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                        </div>
+                        
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>      
                     </div>
-                </div>
 
-                <div class="catalogue-articles" >
-                    <div class="catalogue-articles-item-1">
-                        <a href="#">
-                            <img src="images/article-1.jpg" alt="article-1" class="catalogue-articles-img">
-                            <p class="article-label">Как использовать остатки алмазной мозаики?</p>
-                            <p class="article-text">Принадлежите к числу рукодельниц, занимающихся алмазной вышивкой? 
-                               Значит, вы уже столкнулись с проблемой использования оставшихся после завершения картин страз. 
-                               Отправлять подобную красоту в мусорное ведро жалко, а копить – неудобно. 
-                               Как оказалось, этим остаткам можно найти достойное применение. 
-                               Какое? Об этом мы расскажем в своей статье!
-                            </p>
-                        </a>
-
-                    </div>
-
-                    <div class="catalogue-articles-item-2">
-                        <a href="#">
-                            <img src="images/article-2.jpg" alt="article-2" class="catalogue-articles-img">
-                            <p class="article-label">Как использовать остатки алмазной мозаики?</p>
-                            <p class="article-text">Принадлежите к числу рукодельниц, занимающихся алмазной вышивкой? 
-                                Значит, вы уже столкнулись с проблемой использования оставшихся после завершения картин страз. 
-                                Отправлять подобную красоту в мусорное ведро жалко, а копить – неудобно. 
-                                Как оказалось, этим остаткам можно найти достойное применение. 
-                                Какое? Об этом мы расскажем в своей статье!
-                            </p>
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="article-slider-container">
-                    <input type="radio" name="slider" value="1" checked class="slider-container__input">
-                    <input type="radio" name="slider" value="2" class="slider-container__input">
-                    <input type="radio" name="slider" value="3" class="slider-container__input">
-                    <input type="radio" name="slider" value="4" class="slider-container__input">
+                    <div class="swiper-pagination"></div>
                 </div>
 
                 <a href="#" class="article-view-all">
                     <p class="article-view-all__label"> Читать все статьи</p>
-                </a>      
+                </a>     
             </div>
         </main>
 
@@ -342,5 +379,50 @@
         <p class="protection-rights__label"> &#169 Все права защищены</p>
     </div>
     
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const Swipers = Array.from(document.querySelectorAll('.swiper-object'), n => {
+            return new Swiper(n.querySelector('.swiper'), {
+                direction: 'horizontal',
+                loop: true,
+
+                autoplay: {
+                    delay: 3000,
+                },
+
+                pagination: {
+                    el: n.querySelector('.swiper-pagination'),
+                },
+
+                navigation: {
+                    nextEl: n.querySelector('.swiper-button-next'),
+                    prevEl: n.querySelector('.swiper-button-prev'),
+                },
+            });
+        });
+
+        const SwipersArticle = Array.from(document.querySelectorAll('.swiper-object-articles'), n => {
+            return new Swiper(n.querySelector('.swiper-articles'), {
+                direction: 'horizontal',
+                loop: true,
+
+                autoplay: {
+                    delay: 3000,
+                },
+
+                pagination: {
+                    el: n.querySelector('.swiper-pagination'),
+                },
+
+                navigation: {
+                    nextEl: n.querySelector('.swiper-button-next'),
+                    prevEl: n.querySelector('.swiper-button-prev'),
+                },
+            });
+        });
+    </script>
+
+
 </body>
 </html>
