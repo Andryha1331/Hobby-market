@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby-market. Catalog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cormorant+Garamond&family=PT+Sans+Narrow:wght@400;700&family=Puritan&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <img class="logo-img" src="images/logo-main.svg" alt="logo-main">
+            
+            <div class="nav-main">
+                <div class="nav-links">
+                    <nav class="nav-top">
+                        <ul class="nav-links-left">
+                            <li><a href="#" class="href-style">Полезные статьи</a></li>
+                            <li><a href="#" class="href-style">Доставка</a></li>
+                            <li><a href="#" class="href-style">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/dropdown-menu.svg" alt="dropdown-menu" class="img-burger-menu">
+        
+                    <div class="nav-links-right">
+                        <ul class="nav-links-right-list">
+                            <li class="nav-links-right-list__mail"><a href="mailto:hobbymarket@mail.ru" class="href-style"><img src="images/mail.svg" alt="mail"> hobbymarket@mail.ru</a></li>
+                            <li class="nav-links-right-list__inst"><a href="#" class="href-style"><img src="images/img-inst.svg" alt="img-inst">Instagram</a></li>
+                            <li class="nav-links-right-list__phone"><a href="tel:+71234567890" class="href-style"><img src="images/phone-img.svg" alt="phone-img"> +7 (123) 456-78-90</a></li>
+                        </ul>
+
+                        <button type="button" class="nav-links-button">
+                            <p class="nav-links-button__label">Написать</p>
+                        </button>
+                    </div>
+                    
+                </div>
+
+                <div class="block-search">
+                    <img src="images/search-black.svg" alt="search" class="block-search-glasssmall">
+
+                    <input class="block-search__input" type="text" placeholder="Поиск">
+                    
+                    <div class="block-search__categories">
+                        <select name="" id="search-categories">
+                            <option value="1" selected>Все категории</option>
+                            <option value="2">Ткани шерстяные</option>
+                            <option value="3">Ткани хлопковые</option>
+                        </select>
+
+                        <button  name="button" type="submit" class="block-search__glass"></button>        
+                    </div>
+
+                    <p class="block-search-sum"> 159 BYN</p>
+                </div>
+
+                <nav class="nav-bottom">
+                    <a href="#" class="nav-bottom__menu"> Каталог товаров</a>
+
+                    <ul class="nav-bottom-list">
+                        <li><a href="#" class="href-style">Рисование</a></li>
+                        <li><a href="#" class="href-style">Рукоделие</a></li>
+                        <li><a href="#" class="href-style">Вышивание</a></li>
+                        <li><a href="#" class="href-style">Шитье</a></li>
+                        <li><a href="#" class="href-style">Вязание</a></li>
+                        <li><a href="#" class="href-style">Флористика</a></li>
+                        <li><a href="#" class="href-style">Кулинария</a></li>
+                        <li><a href="#" class="href-style">Декорирование</a></li>
+                        <li><a href="#" class="href-style">Канцтовары</a></li>
+                        <li><a href="#" class="href-style">Аксессуары</a></li>
+                    </ul>
+                </nav>
+            </div>  
+        </header>
+
+        <main class="catalog">
+            <ul class="catalog-path">
+                <li><a href="#" class="catalog-path__item catalog-path__line">Главная</a></li>
+                <li><a href="#" class="catalog-path__item catalog-path__line">Каталог</a></li>
+                <li><a href="#" class="catalog-path__item">Вязание</a></li>
+            </ul>
+
+            <p class="catalog-item-label">
+                Вязание
+            </p>
+
+            <div class="container-menu-items">
+                <div class="left-menu">
+                    <div class="container-categories">
+                        <ul class="main-categories">
+                            <li class="main-categories-li main-categories__item main-categories__label">
+                                <b>Категории</b>
+                                <img src="images/arrow-up.svg" alt="arrow-up" class="main-categories-arrowup">
+                                <img src="images/arrow-bottom.svg" alt="arrow-bottom" class="main-categories-arrowbottom">
+                            </li>
+
+                            <li class="main-categories-li" tabindex="1"><a href="#" class="main-categories__item">Рисование</a></li>
+                            <li class="main-categories-li" tabindex="2"><a href="#" class="main-categories__item">Рукоделие</a></li>
+                            <li class="main-categories-li" tabindex="3"><a href="#" class="main-categories__item">Вышивание</a></li>
+                            <li class="main-categories-li" tabindex="4"><a href="#" class="main-categories__item">Шитье</a></li>
+                            <li class="main-categories-li" tabindex="5"><a href="#" class="main-categories__item">Вязание</a></li>
+                            <li class="main-categories-li" tabindex="6"><a href="#" class="main-categories__item">Флористика</a></li>
+                            <li class="main-categories-li" tabindex="7"><a href="#" class="main-categories__item">Кулинария</a></li>
+                            <li class="main-categories-li" tabindex="8"><a href="#" class="main-categories__item">Декорирование</a></li>
+                        </ul>
+
+                        <div class="main-categories-container">
+                            <a href="#" class="main-categories-button">Показать еще</a>
+                        </div>
+                    </div>
+
+                    <div class="catalog-pricerange">
+                        <div class="container-pricerange-label">
+                            <p class="catalog-pricerange-text"><b>Цена, ₽</b></p>
+                            <p class="catalog-pricerange-text-tablet"><b>Цена</b></p>
+                            <img src="images/arrow-up.svg" alt="arrow-up" class="catalog-pricerange-arrowup">
+                            <img src="images/arrow-bottom.svg" alt="arrow-bottom" class="catalog-pricerange-arrowbottom">
+                        </div>
+
+                        <div class="container-pricerange-input">
+                            <input type="text" class="container-pricerange-input__item" placeholder="от 240">
+                            <p class="catalog-pricerange-trait"> - </p>
+                            <input type="text" class="container-pricerange-input__item" placeholder="до 2690">
+                        </div>
+                    </div>
+
+                    <div class="catalog-color">
+                        <div class="container-color-label">
+                            <p class="catalog-color-label"><b>Цвет</b></p>
+                            <img src="images/arrow-up.svg" alt="arrow-up" class="catalog-color__arrowup">
+                            <img src="images/arrow-bottom.svg" alt="arrow-bottom" class="catalog-color__arrowbottom">
+                        </div>
+
+                        <ul class="catalog-color-checkboxes">
+                            <li class="catalog-color-checkboxes__item">
+                                <input type="checkbox" id="happy" name="color" value="white">
+                                <label for="happy">Белый</label>
+                            </li>
+
+                            <li class="catalog-color-checkboxes__item">
+                                <input type="checkbox" id="happy" name="color" value="blue">
+                                <label for="happy">Синий</label>
+                            </li>
+
+                            <li class="catalog-color-checkboxes__item">
+                                <input type="checkbox" id="happy" name="color" value="red">
+                                <label for="happy">Красный</label>
+                            </li>
+
+                            <li class="catalog-color-checkboxes__item">
+                                <input type="checkbox" id="happy" name="color" value="black">
+                                <label for="happy">Чёрный</label>
+                            </li>
+
+                            <li class="catalog-color-checkboxes__item">
+                                <input type="checkbox" id="happy" name="color" value="purple">
+                                <label for="happy">Фиолетовый</label>
+                            </li>        
+                        </ul>
+
+                        <div class="catalog-color-button-container">
+                            <a href="#" class="catalog-color-button">Показать еще</a>
+                        </div>
+
+                    </div>
+
+                    <div class="brand">
+                        <p class="brand-label"><b>Бренд</b></p>
+                        <img src="images/arrow-bottom.svg" alt="arrow-bottom" class="brand__arrowbottom">
+                    </div>
+                </div>
+
+                <div class="catalog-items">
+                    <ul class="sort-items">
+                        <li class="sort-items__item">Сортировать по:</li>
+                        <li class="sort-items__item sort-items__background" tabindex="9">
+                            Возрастанию цены
+                            <img src="images/arrow-bottom.svg" alt="arrow-bottom" class="sort-items__arrowbottom">
+                        </li>
+                        <li class="sort-items__item sort-items__background" tabindex="10">Убыванию цены</li>
+                        <li class="sort-items__item sort-items__background" tabindex="11">Популярности</li>
+                        <li class="sort-items__item sort-items__background" tabindex="12">Названию</li>
+                        <li class="sort-items__item sort-items__background" tabindex="13">Новинкам</li>
+                    </ul>
+
+                    <div class="container-catalog-items">
+                        <div class="catalog-items-1">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-items-2">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-items-3">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-items-4">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-items-5">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-items-6">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-items-7">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-items-8">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-items-9">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-items-10">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-items-11">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-items-12">
+                            <a href="#">
+                                <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                                <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                            </a>
+
+                            <select name="" class="search-colors">
+                                <option selected>Выберите цвет:</option>
+                                <option value="1">Белый</option>
+                                <option value="2">Синий</option>
+                                <option value="3">Красный</option>       
+                            </select>
+
+                            <div class="catalog-purchase">
+                                <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                                <a href="#" class="catalog-purchase__addbag"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#"><p class="catalog-items-button">Показать еще</p></a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <img  class="footer-logo-smallscreen" src="images/logo-footer.png" alt="logo-footer">
+
+            <div class="footer-main">
+                <div class="footer-logo-address">
+                    <img  class="footer-logo" src="images/logo-footer.png" alt="logo-footer">
+                    
+                    <div class="footer-addres">
+                        <p class="footer-address-text">г. Владивосток, ул. Первомайская, д. 10, оф. 225</p>
+                        <p class="footer-address-text">+7 (123) 456-78-90</p>
+                        <p class="footer-address-text">example@mail.ru</p>
+                    </div>
+
+                    <div class="container-external-links">
+                        <a href="#" class="img-external-links"><img src="images/YouTube.svg" alt="YouTube"></a>
+                        <a href="#" class="img-external-links"><img src="images/Vkontakte.svg" alt="Vkontakte"></a>
+                        <a href="#" class="img-external-links"><img src="images/Odnoklassniki.svg" alt="Odnoklassniki"></a>
+                        <a href="#" class="img-external-links"><img src="images/Instagram.svg" alt="Instagram"></a>
+                    </div>
+                </div>
+
+                <div class="footer-catalogue">
+                    <p class="footer-catalogue-label">Каталог</p>
+
+                    <div class="container-catalog-item">
+                        <div class="container-left-column">
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Рисование</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Рукоделие</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Вышивание</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Шитье</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Вязание</p></a>
+                        </div>
+                        
+                        <div class="container-right-column">
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Флористика</p></a> 
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Кулинария</p></a>                   
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Декорирование</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Канцтовары</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Аксессуары</p></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-help">
+                    <p class="footer-help-label">Помощь</p>
+
+                    <div class="container-help-item">
+                        <a href="#" class="footer-help-item"><p class="footer-help-item__label">Политика конфиденциальности</p></a>
+                        <a href="#" class="footer-help-item"><p class="footer-help-item__label">Пользовательское соглашение</p></a>
+                        <a href="#" class="footer-help-item"><p class="footer-help-item__label">Публичная оферта</p></a>
+                        <a href="#" class="footer-help-item"><p class="footer-help-item__label">Условия возврата</p></a>
+                        <a href="#" class="footer-help-item"><p class="footer-help-item__label">Правообладателям</p></a>
+                    </div>
+                </div>
+
+                <div class="footer-other">
+                    <a href="#" class="footer-other-item"><p class="footer-other-item__label">Полезные статьи</p></a>
+                    <a href="#" class="footer-other-item"><p class="footer-other-item__label">Доставка</p></a>
+                    <a href="#" class="footer-other-item"><p class="footer-other-item__label">Контакты</p></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
