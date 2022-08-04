@@ -130,7 +130,14 @@ li img {
     margin: 0;
     padding: 0px 69px 0px 69px;
 
+    color: #3D3D3D;
 }
+
+.nav-links-button:hover {
+    background-color: #F9E6A3;
+}
+
+
 
 .block-search {
     display: flex;
@@ -488,17 +495,19 @@ div a {
 }
 
 .img-main-items {
-    width: 188px;
-    height: 179px;
-
     display: block;
-    margin: 60px 61px 61px 61px;
+    padding: 60px 61px 61px 61px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
 }
 
+.img-main-items:hover {
+    box-shadow: 0 0 20px #6d9ebb;
+}
+
+
 .img-main-item__label {
-    background-color: #F1F5F8;
-    padding: 15px 0 0 0;
-    margin: 0;
+    margin: 0; 
     
     font-style: normal;
     font-weight: 400;
@@ -507,68 +516,6 @@ div a {
     color: #3D3D3D;
 
     text-align: center;
-}
-
-.item-1 {
-    background-color: #FFFFFF;
-}
-
-
-.item-2 {
-    background-color: #FFFFFF;
-}
-
-.item-3 {
-    background-color: #FFFFFF;
-}
-
-.item-4 {
-    background-color: #FFFFFF;
-}
-
-.item-5 {
-    background-color: #FFFFFF;
-}
-
-.item-6 {
-    background-color: #FFFFFF;
-}
-
-.item-7 {
-    background-color: #FFFFFF;
-}
-
-.item-8 {
-    background-color: #FFFFFF;
-}
-.item-9 {
-    background-color: #FFFFFF;
-}
-
-.item-10 {
-    background-color: #FFFFFF;
-}
-.item-11 {
-    background-color: #FFFFFF;
-}
-
-.item-12 {
-    background-color: #FFFFFF;
-}
-
-.item-13 {
-    background-color: #FFFFFF;
-}
-
-.item-14 {
-    background-color: #FFFFFF;
-
-}.item-15 {
-    background-color: #FFFFFF;
-}
-
-.item-16 {
-    background-color: #FFFFFF;
 }
 
 .main-search-items__button {
@@ -589,6 +536,10 @@ div a {
     color: #3D3D3D;
 
     margin-top: 40px;
+}
+
+.main-search-items__button:hover {
+    background: #F9E6A3;
 }
 
 
@@ -665,7 +616,6 @@ div a {
 }
 
 .article-view-all__label {
-    font-family: 'Gill Sans Nova';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -683,8 +633,11 @@ div a {
     padding: 16px 35px 16px 35px;
 }
 
+.article-view-all__label:hover {
+    background-color: #F9E6A3;;
+}
+
 .footer {
-    /* display: flex; */
     background-color: #193E6B;
 
     padding-bottom: 40px;
