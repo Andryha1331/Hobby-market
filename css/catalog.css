@@ -333,7 +333,7 @@ div label:hover {
     background: #F3CD47;;
 }
 
-.sort-items__item:hover:not(.sort-items__item:first-child) {
+.sort-items__item:hover {
     cursor: pointer;
 }
 
@@ -343,9 +343,13 @@ div label:hover {
     
 }
 
-/* .sort-items__item:first-child {
-    padding: 9px 0 11px 0;
-} */
+.catalog-items-padding {
+    padding-bottom: 20px;
+}
+
+.catalog-items-padding:hover {
+    box-shadow: 0 0 20px #6d9ebb;;
+}
 
 .sort-items__background {
     background: #F1F5F8;
@@ -464,6 +468,10 @@ div label:hover {
     border-radius: 2px;
 
     padding: 22px 0;
+}
+
+.catalog-items-button:hover {
+    background: #F9E6A3;
 }
 
 
