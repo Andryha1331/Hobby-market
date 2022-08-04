@@ -319,6 +319,14 @@ div label:hover {
     list-style-type: none;
 
     padding: 9px 15px 11px 15px;
+    margin: 0;
+}
+
+.sort-items__width {
+   padding-left: 0;
+   padding-right: 0;
+   white-space: nowrap;
+
 }
 
 .sort-items__item:focus {
@@ -329,9 +337,15 @@ div label:hover {
     cursor: pointer;
 }
 
-.sort-items__item:first-child {
-    padding: 9px 0 11px 0;
+.catalog-items-sorting__label {
+    display: flex;
+    gap: 10px;
+    
 }
+
+/* .sort-items__item:first-child {
+    padding: 9px 0 11px 0;
+} */
 
 .sort-items__background {
     background: #F1F5F8;
