@@ -6,17 +6,292 @@
     <title>Card product</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/card-product.css">
+    <link rel="stylesheet" href="css/catalog.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/card-item.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cormorant+Garamond&family=PT+Sans+Narrow:wght@400;700&family=Puritan&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
+        <header class="header">
+            <img class="logo-img" src="images/logo-main.svg" alt="logo-main">
+            
+            <div class="nav-main">
+                <div class="nav-links">
+                    <nav class="nav-top">
+                        <ul class="nav-links-left">
+                            <li><a href="#" class="href-style">Полезные статьи</a></li>
+                            <li><a href="#" class="href-style">Доставка</a></li>
+                            <li><a href="#" class="href-style">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/dropdown-menu.svg" alt="dropdown-menu" class="img-burger-menu">
+        
+                    <div class="nav-links-right">
+                        <ul class="nav-links-right-list">
+                            <li class="nav-links-right-list__mail"><a href="mailto:hobbymarket@mail.ru" class="href-style"><img src="images/mail.svg" alt="mail"> hobbymarket@mail.ru</a></li>
+                            <li class="nav-links-right-list__inst"><a href="#" class="href-style"><img src="images/img-inst.svg" alt="img-inst">Instagram</a></li>
+                            <li class="nav-links-right-list__phone"><a href="tel:+71234567890" class="href-style"><img src="images/phone-img.svg" alt="phone-img"> +7 (123) 456-78-90</a></li>
+                        </ul>
+
+                        <button type="button" class="nav-links-button">
+                            <a href="#"><p class="nav-links-button__label">Написать</p></a>
+                        </button>
+                    </div>
+                    
+                </div>
+
+                <div class="block-search">
+                    <img src="images/search-black.svg" alt="search" class="block-search-glasssmall">
+
+                    <input class="block-search__input" type="text" placeholder="Поиск">
+                    
+                    <div class="block-search__categories">
+                        <select name="" id="search-categories">
+                            <option value="1" selected>Все категории</option>
+                            <option value="2">Ткани шерстяные</option>
+                            <option value="3">Ткани хлопковые</option>
+                        </select>
+
+                        <button  name="button" type="submit" class="block-search__glass"></button>        
+                    </div>
+
+                    <p class="block-search-sum"> 159 BYN</p>
+                </div>
+
+                <nav class="nav-bottom">
+                    <a href="catalog.html" target="_blank" class="nav-bottom__menu"> Каталог товаров</a>
+
+                    <ul class="nav-bottom-list">
+                        <li><a href="#" class="href-style">Рисование</a></li>
+                        <li><a href="#" class="href-style">Рукоделие</a></li>
+                        <li><a href="#" class="href-style">Вышивание</a></li>
+                        <li><a href="#" class="href-style">Шитье</a></li>
+                        <li><a href="#" class="href-style">Вязание</a></li>
+                        <li><a href="#" class="href-style">Флористика</a></li>
+                        <li><a href="#" class="href-style">Кулинария</a></li>
+                        <li><a href="#" class="href-style">Декорирование</a></li>
+                        <li><a href="#" class="href-style">Канцтовары</a></li>
+                        <li><a href="#" class="href-style">Аксессуары</a></li>
+                    </ul>
+                </nav>
+            </div>  
+        </header>
+
 
         <main class="card-product">
+            <section class="card-product-view-items">
+                <ul class="card-product-path">
+                    <li><a href="#" class="card-product-path__item card-product-path__line">Главная</a></li>
+                    <li><a href="#" class="card-product-path__item card-product-path__line">Каталог</a></li>
+                    <li><a href="#" class="card-product-path__item card-product-path__line">Вязание</a></li>
+                    <li><a href="#" class="card-product-path__item">Пряжа "Gamma" Ирис 100% хлопок 10 г 82 м</a></li>
+                </ul>
+
+                <p class="card-product-label">
+                    Пряжа "Gamma" Ирис 100% хлопок 10 г 82 м
+                </p>
+
+                <p class="card-product__article-number-tablet">Артикул: 123456789</p>
+
+                <div class="card-product-items">
+                    <ul class="card-product-left-menu">
+                        <li class="card-product-left-menu__item"><img src="images/tangle-inactive.png" alt="tangle-inactive"></li>
+                        <li class="card-product-left-menu__item"><img src="images/tangle-active.png" alt="tangle-active"></li>
+                        <li class="card-product-left-menu__item"><img src="images/tangle-inactive.png" alt="tangle-inactive"></li>
+                        <li class="card-product-left-menu__item"><img src="images/tangle-inactive.png" alt="tangle-inactive"></li>
+                        <li class="card-product-left-menu__item"><img src="images/tangle-inactive.png" alt="tangle-inactive"></li>
+                    </ul>
+
+                    <img src="images/tangle-big.png" alt="tangle-big" class="card-product-img">
+
+                    <div class="card-product-right-menu">
+                        <p class="card-product__article-number">Артикул: 123456789</p>
+
+                        <p class="card-product-items__price">71 ₽/шт</p>
+
+                        <select name="" class="card-product-search-colors">
+                            <option selected>Выберите цвет:</option>
+                            <option value="1">Белый</option>
+                            <option value="2">Синий</option>
+                            <option value="3">Красный</option>       
+                        </select>
+
+                        <p class="card-product-items-amount-label">Количество</p>
+
+                        <div class="card-product-items-amount">
+                            <img class="card-product-items-amount__minus" src="images/minus.svg" alt="minus">
+                            <p class="card-product-items-amount__number">1</p>
+                            <img class="card-product-items-amount__plus" src="images/plus.svg" alt="plus">
+                        </div>
+                    
+                        <div class="card-product-purchase-container">
+                            <a href="#" class="card-product-add-to-cart">В корзину</a>
+                            <a href="#" class="card-product-buy-one-click">Купить в 1 клик</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
             
+            <section class="card-product-description">
+                <div class="card-product-description-margin">
+                    <ul class="card-product-description-labels">
+                        <li class="card-product-description-labels__item" tabindex="1">Описание</li>
+                        <li class="card-product-description-labels__item" tabindex="2">Характеристики</li>
+                    </ul>
+
+                    <p class="card-product-description-text">Учитывая ключевые сценарии поведения, убеждённость некоторых оппонентов требует определения и уточнения как самодостаточных, так и внешне зависимых концептуальных решений. Следует отметить, что существующая теория обеспечивает актуальность переосмысления внешнеэкономических политик. В своём стремлении повысить качество жизни, они забывают, что перспективное планирование создаёт предпосылки для глубокомысленных рассуждений.</p>
+                </div>
+            </section>
+
+            <section class="card-product-last-seen">
+                <p class="card-product-last-seen-label">Вы недавно смотрели</p>
+
+                <div class="card-product-last-seen-catalog">
+                    <div class="catalog-items-1 catalog-items-padding">
+                        <a href="#">
+                            <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                            <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                        </a>
+
+                        <select name="" class="search-colors">
+                            <option selected>Выберите цвет:</option>
+                            <option value="1">Белый</option>
+                            <option value="2">Синий</option>
+                            <option value="3">Красный</option>       
+                        </select>
+
+                        <div class="catalog-purchase">
+                            <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                            <a href="#" class="catalog-purchase__addbag"></a>
+                        </div>
+                    </div>
+
+                    <div class="catalog-items-2 catalog-items-padding">
+                        <a href="#">
+                            <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                            <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                        </a>
+
+                        <select name="" class="search-colors">
+                            <option selected>Выберите цвет:</option>
+                            <option value="1">Белый</option>
+                            <option value="2">Синий</option>
+                            <option value="3">Красный</option>       
+                        </select>
+
+                        <div class="catalog-purchase">
+                            <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                            <a href="#" class="catalog-purchase__addbag"></a>
+                        </div>
+                    </div>
+
+                    <div class="catalog-items-3 catalog-items-padding">
+                        <a href="#">
+                            <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                            <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                        </a>
+
+                        <select name="" class="search-colors">
+                            <option selected>Выберите цвет:</option>
+                            <option value="1">Белый</option>
+                            <option value="2">Синий</option>
+                            <option value="3">Красный</option>       
+                        </select>
+
+                        <div class="catalog-purchase">
+                            <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                            <a href="#" class="catalog-purchase__addbag"></a>
+                        </div>
+                    </div>
+
+                    <div class="catalog-items-4 catalog-items-padding">
+                        <a href="#">
+                            <img class="catalog-items__image" src="images/yarn.jpg" alt="yarn">
+                            <p class="catalog-items__label">Пряжа "Gamma" Ирис <br> 100% хлопок 10 г 82 м</p>
+                        </a>
+
+                        <select name="" class="search-colors">
+                            <option selected>Выберите цвет:</option>
+                            <option value="1">Белый</option>
+                            <option value="2">Синий</option>
+                            <option value="3">Красный</option>       
+                        </select>
+
+                        <div class="catalog-purchase">
+                            <p class="catalog-purchase__price"><b>71 ₽/шт</b></p>
+                            <a href="#" class="catalog-purchase__addbag"></a>
+                        </div>
+                    </div>
+                </div>                
+            </section>
         </main>
 
+        <footer class="footer">
+            <img  class="footer-logo-smallscreen" src="images/logo-footer.png" alt="logo-footer">
+
+            <div class="footer-main">
+                <div class="footer-logo-address">
+                    <img  class="footer-logo" src="images/logo-footer.png" alt="logo-footer">
+                    
+                    <div class="footer-addres">
+                        <p class="footer-address-text">г. Владивосток, ул. Первомайская, д. 10, оф. 225</p>
+                        <p class="footer-address-text">+7 (123) 456-78-90</p>
+                        <p class="footer-address-text">example@mail.ru</p>
+                    </div>
+
+                    <div class="container-external-links">
+                        <a href="#" class="img-external-links"><img src="images/YouTube.svg" alt="YouTube"></a>
+                        <a href="#" class="img-external-links"><img src="images/Vkontakte.svg" alt="Vkontakte"></a>
+                        <a href="#" class="img-external-links"><img src="images/Odnoklassniki.svg" alt="Odnoklassniki"></a>
+                        <a href="#" class="img-external-links"><img src="images/Instagram.svg" alt="Instagram"></a>
+                    </div>
+                </div>
+
+                <div class="footer-catalogue">
+                    <p class="footer-catalogue-label">Каталог</p>
+
+                    <div class="container-catalog-item">
+                        <div class="container-left-column">
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Рисование</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Рукоделие</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Вышивание</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Шитье</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Вязание</p></a>
+                        </div>
+                        
+                        <div class="container-right-column">
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Флористика</p></a> 
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Кулинария</p></a>                   
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Декорирование</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Канцтовары</p></a>
+                            <a href="#" class="footer-catalogue__item"><p class="footer-catalogue__item__label">Аксессуары</p></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-help">
+                    <p class="footer-help-label">Помощь</p>
+
+                    <div class="container-help-item">
+                        <a href="#" class="footer-help-item"><p class="footer-help-item__label">Политика конфиденциальности</p></a>
+                        <a href="#" class="footer-help-item"><p class="footer-help-item__label">Пользовательское соглашение</p></a>
+                        <a href="#" class="footer-help-item"><p class="footer-help-item__label">Публичная оферта</p></a>
+                        <a href="#" class="footer-help-item"><p class="footer-help-item__label">Условия возврата</p></a>
+                        <a href="#" class="footer-help-item"><p class="footer-help-item__label">Правообладателям</p></a>
+                    </div>
+                </div>
+
+                <div class="footer-other">
+                    <a href="#" class="footer-other-item"><p class="footer-other-item__label">Полезные статьи</p></a>
+                    <a href="#" class="footer-other-item"><p class="footer-other-item__label">Доставка</p></a>
+                    <a href="#" class="footer-other-item"><p class="footer-other-item__label">Контакты</p></a>
+                </div>
+            </div>
+        </footer>
+
+        <p class="protection-rights__label"> &#169 Все права защищены</p>
     </div>
     
 </body>

@@ -158,10 +158,66 @@
     .sort-items  {
         flex-wrap: wrap;
     }
-
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1070px) {
+    .catalog {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .card-product-view-items, .card-product-last-seen {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .card-product-description-margin {
+        margin-left: 20px;
+    }
+
+    .card-product-path {
+        display: none;
+    }
+
+    .card-product-left-menu {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card-product-img {
+        order: -1;
+    }
+
+    .card-product-items {
+        flex-direction: column;
+    }
+
+    .card-product-label {
+        max-width: 728px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    .card-product-description-text {
+        max-width: 728px;
+    }
+
+    .card-product__article-number {
+        display: none;
+    }
+
+    .card-product__article-number-tablet {
+        display: block;
+    }
+
+    .card-product-description {
+        padding: 80px 0;
+    }
+
+    .card-product-last-seen {
+        padding: 80px 0;
+    }
+
     .main-categories-li:not(.main-categories-li:first-child) {
         display: none;
     }
@@ -558,6 +614,35 @@
     .catalog {
         margin-bottom: 60px;
     }
+
+    .card-product-label {
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+    .card-product-items {
+        padding-bottom: 90px;
+    }
+
+    .card-product-description {
+        padding: 60px 0;
+    }
+
+    .card-product-last-seen {
+        padding: 60px 0;
+    }
+
+    .card-product-last-seen-catalog {
+        justify-content: center;
+    }
+
+    .card-product-description-labels {
+        justify-content: center;
+    }
+
+    .card-product-last-seen-label {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -583,6 +668,10 @@
     }
 
     .catalog-item-label {
+        margin-top: 30px;
+    }
+
+    .card-product-label {
         margin-top: 30px;
     }
 }
