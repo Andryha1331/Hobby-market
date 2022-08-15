@@ -95,7 +95,6 @@
                         <ul class="main-categories">
                             <li class="main-categories-li main-categories__item main-categories__label">
                                 <b>Категории</b>
-                                <img src="images/arrow-up.svg" alt="arrow-up" class="main-categories-arrowup">
                                 <img src="images/arrow-bottom.svg" alt="arrow-bottom" class="main-categories-arrowbottom">
                             </li>
 
@@ -118,7 +117,6 @@
                         <div class="container-pricerange-label">
                             <p class="catalog-pricerange-text"><b>Цена, ₽</b></p>
                             <p class="catalog-pricerange-text-tablet"><b>Цена</b></p>
-                            <img src="images/arrow-up.svg" alt="arrow-up" class="catalog-pricerange-arrowup">
                             <img src="images/arrow-bottom.svg" alt="arrow-bottom" class="catalog-pricerange-arrowbottom">
                         </div>
 
@@ -132,7 +130,6 @@
                     <div class="catalog-color">
                         <div class="container-color-label">
                             <p class="catalog-color-label"><b>Цвет</b></p>
-                            <img src="images/arrow-up.svg" alt="arrow-up" class="catalog-color__arrowup">
                             <img src="images/arrow-bottom.svg" alt="arrow-bottom" class="catalog-color__arrowbottom">
                         </div>
 
@@ -170,8 +167,20 @@
                     </div>
 
                     <div class="brand">
-                        <p class="brand-label"><b>Бренд</b></p>
-                        <img src="images/arrow-bottom.svg" alt="arrow-bottom" class="brand__arrowbottom">
+                        <div class="brand-label-container">
+                            <p class="brand-label"><b>Бренд</b></p>
+                            <img src="images/arrow-bottom.svg" alt="arrow-bottom" class="brand__arrowbottom">
+                        </div>
+
+                        <ul class="brand-items">
+                            <li class="brand-items__item" tabindex="1">Madeira</li>
+                            <li class="brand-items__item" tabindex="2">Jasmine</li>
+                        </ul>
+
+                        <div class="brand-button-container">
+                            <a href="#" class="brand-button">Показать еще</a>
+                        </div>
+
                     </div>
                 </div>
 
@@ -489,6 +498,37 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        const catalogColorLabel = document.querySelector('.container-color-label');
+        catalogColorLabel.addEventListener('click', function(event) {
+            const catalogColorContainer = document.querySelector('.catalog-color');
+
+            catalogColorContainer.classList.toggle('active');
+        })
+
+        const catalogPricerangeLabel = document.querySelector('.container-pricerange-label');
+        catalogPricerangeLabel.addEventListener('click', function(event) {
+            const catalogPricerange = document.querySelector('.catalog-pricerange');
+
+            catalogPricerange.classList.toggle('active');
+        }) 
+
+        const mainCategories = document.querySelector('.main-categories__label');
+        mainCategories.addEventListener('click', function(event) {
+            const containerCategories = document.querySelector('.container-categories');
+
+            containerCategories.classList.toggle('active');
+        })
+
+        const brandLabelContainer = document.querySelector('.brand-label-container');
+        brandLabelContainer.addEventListener('click', function(event) {
+            const brand = document.querySelector('.brand');
+
+            brand.classList.toggle('active');
+        })
+
+    </script>
     
 </body>
 </html>
