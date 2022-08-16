@@ -635,6 +635,10 @@
     .card-product-last-seen-label {
         text-align: center;
     }
+
+    .card-product-buy-one-click {
+        padding: 23px 21.5px;
+    }
 }
 
 @media screen and (max-width: 380px) {
