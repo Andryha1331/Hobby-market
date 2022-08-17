@@ -158,14 +158,19 @@
     .sort-items  {
         flex-wrap: wrap;
     }
-}
 
-@media screen and (max-width: 1070px) {
     .catalog {
         margin-left: 20px;
         margin-right: 20px;
     }
 
+    .card-product {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
     .card-product-view-items, .card-product-last-seen {
         margin-left: 20px;
         margin-right: 20px;
@@ -638,6 +643,11 @@
 
     .card-product-buy-one-click {
         padding: 23px 21.5px;
+    }
+
+    .card-product-description-labels__item {
+        font-size: 32px;
+        line-height: 40px;
     }
 }
 
