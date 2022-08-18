@@ -199,6 +199,10 @@
     padding: 23px 36px;
 }
 
+.card-product-buy-one-click:hover {
+    background: #F9E6A3;
+}
+
 .card-product-purchase-container {
     margin-top: 54px;
 }
